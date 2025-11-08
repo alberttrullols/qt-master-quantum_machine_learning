@@ -1,0 +1,8 @@
+# Ignore all files and directories starting with a dot (hidden files)
+.*
+
+# Exception: Don't ignore .gitignore itself
+!.gitignore
+
+# Exception: Don't ignore .gitkeep files (used to keep empty directories in git)
+!.gitkeep
